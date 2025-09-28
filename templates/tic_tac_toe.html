@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic-Tac-Toe</title>
+        <link rel="stylesheet" href="{{url_for('static', filename = 'tic_tac_toe_stylesheet.css')}}">
+        <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    </head>
+    <body>
+        <h1>Tic-Tac-Toe</h1>
+        <main>
+        <div class="board">
+            <button class="placer">
+                <div class="ring invisible">
+                    <div class="top-circle"></div>
+                </div>
+                <div class="cross invisible">
+                    <div class="left-line"></div>
+                    <div class="right-line"></div>
+                </div>
+            </button>
+            <button class="placer">
+                <div class="ring invisible">
+                    <div class="top-circle"></div>
+                </div>
+                <div class="cross invisible">
+                    <div class="left-line"></div>
+                    <div class="right-line"></div>
+                </div>
+            </button>
+            <button class="placer">
+                <div class="ring invisible">
+                    <div class="top-circle"></div>
+                </div>
+                <div class="cross invisible">
+                    <div class="left-line"></div>
+                    <div class="right-line"></div>
+                </div>
+            </button>
+            
+            <button class="placer">
+                <div class="ring invisible">
+                    <div class="top-circle"></div>
+                </div>
+                <div class="cross invisible">
+                    <div class="left-line"></div>
+                    <div class="right-line"></div>
+                </div>
+            </button>
+            <button class="placer">
+                <div class="ring invisible">
+                    <div class="top-circle"></div>
+                </div>
+                <div class="cross invisible">
+                    <div class="left-line"></div>
+                    <div class="right-line"></div>
+                </div>
+            </button>
+            <button class="placer">
+                <div class="ring invisible">
+                    <div class="top-circle"></div>
+                </div>
+                <div class="cross invisible">
+                    <div class="left-line"></div>
+                    <div class="right-line"></div>
+                </div>
+            </button>
+
+            <button class="placer">
+                <div class="ring invisible">
+                    <div class="top-circle"></div>
+                </div>
+                <div class="cross invisible">
+                    <div class="left-line"></div>
+                    <div class="right-line"></div>
+                </div>
+            </button>
+            <button class="placer">
+                <div class="ring invisible">
+                    <div class="top-circle"></div>
+                </div>
+                <div class="cross invisible">
+                    <div class="left-line"></div>
+                    <div class="right-line"></div>
+                </div>
+            </button>
+            <button class="placer">
+                <div class="ring invisible">
+                    <div class="top-circle"></div>
+                </div>
+                <div class="cross invisible">
+                    <div class="left-line"></div>
+                    <div class="right-line"></div>
+                </div>
+            </button>
+        </div>
+        <div class="win-screen invisible" >
+        </div>
+        </main>
+        <script src="{{url_for('static', filename = 'tic_tac_toe.js')}}"></script>
+    </body>
+</html>
